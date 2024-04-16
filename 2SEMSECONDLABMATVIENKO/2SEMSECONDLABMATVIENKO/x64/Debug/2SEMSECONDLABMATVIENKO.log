@@ -1,5 +1,5 @@
 ﻿  2SEMSECONDLABMATVIENKO.cpp
-D:\progs\2SEMSECONDLABMATVIENKO\2SEMSECONDLABMATVIENKO\2SEMSECONDLABMATVIENKO.cpp(303,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\progs\2SEMSECONDLABMATVIENKO\2SEMSECONDLABMATVIENKO\2SEMSECONDLABMATVIENKO.cpp(277): warning C4715: IDZ: значение возвращается не при всех путях выполнения
-D:\progs\2SEMSECONDLABMATVIENKO\2SEMSECONDLABMATVIENKO\2SEMSECONDLABMATVIENKO.cpp(296): warning C4715: IDZ2: значение возвращается не при всех путях выполнения
-  2SEMSECONDLABMATVIENKO.vcxproj -> D:\progs\2SEMSECONDLABMATVIENKO\x64\Debug\2SEMSECONDLABMATVIENKO.exe
+C:\Users\User\Desktop\Сеня\2SEMSECONDLABMATVIENKO\2SEMSECONDLABMATVIENKO\2SEMSECONDLABMATVIENKO.cpp(303,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\User\Desktop\Сеня\2SEMSECONDLABMATVIENKO\2SEMSECONDLABMATVIENKO\2SEMSECONDLABMATVIENKO.cpp(277): warning C4715: IDZ: значение возвращается не при всех путях выполнения
+C:\Users\User\Desktop\Сеня\2SEMSECONDLABMATVIENKO\2SEMSECONDLABMATVIENKO\2SEMSECONDLABMATVIENKO.cpp(296): warning C4715: IDZ2: значение возвращается не при всех путях выполнения
+  2SEMSECONDLABMATVIENKO.vcxproj -> C:\Users\User\Desktop\Сеня\2SEMSECONDLABMATVIENKO\x64\Debug\2SEMSECONDLABMATVIENKO.exe

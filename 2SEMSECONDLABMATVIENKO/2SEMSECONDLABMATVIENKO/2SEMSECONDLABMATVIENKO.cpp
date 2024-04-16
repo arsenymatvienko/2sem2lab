@@ -34,7 +34,7 @@ List* createListWithDinamicLength() {
     cout << "Введите элементы списка (для завершения введите любой символ):" << endl;
 
     while (cin >> data) {
-        List* newNode = new List; 
+        List* newNode = new List;
         newNode->data = data;
         newNode->tail = nullptr;
 
@@ -69,7 +69,7 @@ List* findItemByIndex(List* arr, int index) {
 
     if (index >= countListLength(arr))
         cout << "не найден.";
-        return nullptr;
+    //return nullptr;
     while (curr) {
         if (counter == index) return curr;
         curr = curr->tail;
@@ -199,11 +199,11 @@ void delItem(List*& beg, int value) {
 
 void changeItems(List*& arr, int firstItem, int secondItem)
 {
-    if (!findItemByIndex(arr, firstItem) || !findItemByIndex(arr, secondItem))
+    /*if (!findItemByIndex(arr, firstItem) || !findItemByIndex(arr, secondItem))
     {
-        cout << "Элементы не найден" << endl;
+        cout << "Элементы не найдены" << endl;
         return;
-    }
+    }*/
     //int firstIndex = checkForNumber(arr, firstItem);
     int firstIndex = firstItem;
 
@@ -373,7 +373,7 @@ int main()
                 List* curr = list;
                 cout << "Итоговый список: ";
                 while (curr) {
-                    curr->data  = -99 + rand() % (99 - (-99) + 1);
+                    curr->data = -99 + rand() % (99 - (-99) + 1);
                     cout << curr->data << " ";
                     curr = curr->tail;
                 }
@@ -593,7 +593,7 @@ int main()
             cout << "-----------------------------------------" << endl << endl;
             break;
         }
-              
+
         case 4: {
             cout << "Введите число на которое уменьшить все четные элементы: ";
             cout << endl;
@@ -629,7 +629,7 @@ int main()
             break;
         }
         }
-        _getch();   
+        _getch();
     }
     return 0;
 }
